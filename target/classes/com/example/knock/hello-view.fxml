@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="426.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.knock.HelloController">
+   <children>
+      <TextField fx:id="msg" layoutX="36.0" layoutY="325.0" prefHeight="47.0" prefWidth="263.0" />
+      <Button fx:id="send" layoutX="312.0" layoutY="325.0" mnemonicParsing="false" onAction="#sendMsg" prefHeight="41.0" prefWidth="93.0" text="Button" />
+      <ScrollPane fx:id="inbox" layoutX="25.0" layoutY="23.0" prefHeight="284.0" prefWidth="382.0">
+         <content>
+            <AnchorPane fx:id="we" prefHeight="283.0" prefWidth="382.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
