@@ -1,6 +1,6 @@
 # Knock
 Knock is a simple chat software devoeloped by Xon's soft
 
-Developed by:
-Md. Muhaiminul Kabir
+## Collaborators 
+</b><a href ="">Md. Muhaiminul Kabir</a></b><br>
 Ahsanullah University Of Science and Technology
